@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkers Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="playerTurn" class="playerTurnTitle">white</h1>
+    <div id="board" class="board"></div>
+    <div class="gameButtons">
+      <button id="draw-button" class="drawButton">Draw</button>
+      <button id="resign-button" class="resignButton">Resign</button>
+    </div>
+
+    <div class="none draw-Modal" id="draw-Modal">
+      <h3 id="draw-title" class="draw-modal-title"></h3>
+      <div class="modal-buttons"></div>
+      <button class="draw-Modal-button" id="draw-Modal-yes-button">Yes</button>
+      <button class="draw-Modal-button" id="draw-Modal-no-button">No</button>
+    </div>
+
+    <div class="none game-result-modal" id="result-Modal">
+      <h3 id="result title" class="result-modal-title"></h3>
+      <div class="result-Modal-Buttons">
+        <button class="result-Modal-button" id="new-game-button">
+          Play again
+        </button>
+      </div>
+    </div>
+    <script type="module" src="eventListeners.js"></script>
+  </body>
+</html>

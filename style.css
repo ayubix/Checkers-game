@@ -1,0 +1,158 @@
+body {
+  background-color: white;
+}
+
+.title {
+  color: rgb(141, 17, 17);
+  font-size: 80px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.playerTurnTitle {
+  color: rgb(141, 17, 17);
+  font-size: 55px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.selected {
+  background-color: rgb(8, 212, 234);
+}
+
+.board {
+  width: 640px;
+  height: 640px;
+  margin: 0 auto 20px auto;
+  outline: 20px solid brown;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.blackPiece {
+  width: 65%;
+  height: 65%;
+  margin: 12px auto;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+.black {
+  background-color: black;
+}
+
+.lightPiece {
+  width: 65%;
+  height: 65%;
+  margin: 12px auto;
+  border-radius: 50%;
+  border: 6px solid black;
+}
+
+.dark {
+  background-color: #312e2b;
+}
+
+.white {
+  background-color: rgb(185, 30, 6);
+}
+
+.White {
+  background-color: rgb(255, 255, 255);
+}
+
+.whiteKing {
+  background-image: url("crown.png");
+  background-size: contain;
+}
+
+.blackKing {
+  background-image: url("crown.png");
+  background-size: contain;
+}
+
+.none {
+  display: none;
+}
+
+.draw-Modal,
+.game-result-modal {
+  width: 60%;
+  height: 75%;
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(141, 17, 17);
+  justify-content: center;
+  align-items: center;
+}
+
+.gameButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.resignButton,
+.drawButton {
+  width: 200px; /* Adjust width based on content */
+  height: 60px;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 10px; /* Adjust margin between buttons */
+  margin-top: 10px;
+  color: black;
+  outline: 7px solid brown;
+  background-color: rgb(253, 251, 252);
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.draw-modal-title,
+.result-modal-title {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 40px auto; /* Add margin auto to center horizontally */
+  display: block; /* Ensures the buttons take full width of the container */
+  color: white;
+}
+
+.draw-Modal-button {
+  width: 20vw; /* Adjust width based on content */
+  height: 10vh;
+  border: 4px solid black;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px auto; /* Add margin auto to center horizontally */
+  display: block; /* Ensures the buttons take full width of the container */
+  background-color: rgb(253, 251, 252);
+}
+
+.result-Modal-button {
+  width: 300px; /* Adjust width based on content */
+  height: 85px;
+  border: 4px solid black;
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto; /* Add margin auto to center horizontally */
+  display: block; /* Ensures the buttons take full width of the container */
+}
