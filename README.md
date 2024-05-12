@@ -20,7 +20,7 @@ Any player in his turn can offer to his opponent a draw
 
 
 
-King can go to any of his diagonal
+King can go to any of his diagonals
 ![image](https://github.com/ayubix/Checkers-game/assets/86429159/cee4081b-1476-4f67-8b5b-32cefe1f451a)
 
 
