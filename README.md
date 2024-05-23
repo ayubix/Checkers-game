@@ -1,6 +1,4 @@
-Checkers game developed with Javascript Vanilla , HTML and CSS.
-Implemented all the game rules and features like : Burned pieces , king and pawn pieces , multicapturing events , winning alert , stalemate alert.
-The game can be played by two players , each of them can resign or offer a draw anytime.
+Developed a checkers game using Vanilla JavaScript, HTML, and CSS, implementing all standard rules and features including burned pieces, king and pawn movements, multi-capturing, winning and stalemate alerts. The game supports two players, with options to resign or offer a draw at any time.
 
 
 This is the starting position of the game
