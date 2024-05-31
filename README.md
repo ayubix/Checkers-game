@@ -32,7 +32,7 @@ This project is a classic checkers game developed using Vanilla JavaScript, HTML
 
 4. **Burned pieces** : If a player makes a normal move instead of capturing when a capture is possible, all their pieces with a possible capture are burned and removed from the board immediately.  
 
-5. **Multi capturing** : If possible, continue capturing in a single turn.  
+5. **Multi capturing** : If possible, continue capturing in a single turn also backwards.  
 
 6. **Winning** : The game ends when a player captures all opponent's pieces or blocks their moves.  
 
