@@ -13,13 +13,19 @@ This project is a classic checkers game developed using Vanilla JavaScript, HTML
 
 ## Features
 
-### Standard Rules Implementation: Full support for the official rules of checkers.
-### Piece Capturing: Captured pieces are automatically removed from the board.
-### Burned Pieces: Any piece that is able to capture but doesn't perform a capture on its turn will be removed from the board.
-### King and Pawn Mechanics: Differentiates between king and pawn movements, ensuring accurate gameplay for each piece type.
-### Multi-Capturing Moves: Supports multiple captures in a single turn, following the rules for sequential captures.
-### Win and Stalemate Alerts: Alerts players when a game is won, lost, or results in a stalemate.
-### Resignation and Draw Offers: Players can resign or offer a draw at any point during the game, allowing for flexible game.
+***Standard Rules Implementation***: Full support for the official rules of checkers.
+
+***Piece Capturing***: Captured pieces are automatically removed from the board.
+
+***Burned Pieces*** : Any piece that is able to capture but doesn't perform a capture on its turn will be removed from the board.
+
+***King and Pawn Mechanics*** : Differentiates between king and pawn movements, ensuring accurate gameplay for each piece type.
+
+***Multi-Capturing Moves*** : Supports multiple captures in a single turn, following the rules for sequential captures.
+
+***Win and Stalemate Alerts*** : Alerts players when a game is won, lost, or results in a stalemate.
+
+***Resignation and Draw Offers*** : Players can resign or offer a draw at any point during the game, allowing for flexible game.
 
 
 ## Game rules 
