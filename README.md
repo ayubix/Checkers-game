@@ -47,8 +47,8 @@ This project is a classic checkers game developed using Vanilla JavaScript, HTML
 To run this game locally, follow these steps:  
 1. ### Clone the repository:
 
-   ![image](https://github.com/ayubix/Checkers-game/assets/86429159/fcfc389e-0eb9-4a0f-ba61-525de0704635)
-   
+   ![clone](https://github.com/user-attachments/assets/0c8cba4b-a081-4db1-a6e0-740c7d13edd2)
+
 2. ### Navigate to the project directory:
 
    ![image](https://github.com/ayubix/Checkers-game/assets/86429159/ae0ccde8-4e77-4378-9f84-ef063ca7710f)
