@@ -31,9 +31,8 @@ This project is a classic checkers game developed using Vanilla JavaScript, HTML
 ## Game rules 
 
 1. **Objective**: Capture all of the opponent's pieces or block them so they cannot move.
-2. **Moves**:  
- **Pawns**: Move diagonally forward.   
- **Kings**: Move diagonally forward and backward.
+
+2. **Moves**: **Pawns** move diagonally forward. **Kings** move diagonally forward and backward.
    
 3. **Capturing** : Jump over the opponent's piece to capture it.  
 
@@ -41,9 +40,7 @@ This project is a classic checkers game developed using Vanilla JavaScript, HTML
 
 5. **Multi capturing** : If possible, continue capturing in a single turn also backwards.  
 
-6. **Winning** : The game ends when a player captures all opponent's pieces or blocks their moves.  
-
-7. **Stalemate** : The game results in a stalemate if neither player can make a legal move.
+6. **Winning** : The game ends when a player captures all opponent's pieces or blocks their moves(Stalemate).
 
 ## Installation
 
@@ -54,26 +51,31 @@ To run this game locally, follow these steps:
    
 2. ### Navigate to the project directory:
 
- ![image](https://github.com/ayubix/Checkers-game/assets/86429159/ae0ccde8-4e77-4378-9f84-ef063ca7710f)
+   ![image](https://github.com/ayubix/Checkers-game/assets/86429159/ae0ccde8-4e77-4378-9f84-ef063ca7710f)
 
 
-3. ### Open index.html in your web browser.
+3. ### Open index.html in your web browser and enjoy :)
 
 
 ## Usage
 
 Once the game is loaded in your browser:  
-1. **Start a Game**: The game starts with a default setup for a checkers game.
-2. **Playing**: Click on a piece to select it, then click on a valid move to move the piece.
-3. **Multi-Capturing**: If a piece can make multiple captures, continue clicking on valid capture moves.
-4. **Winning/Stalemate Alerts**: The game will automatically alert when there is a winner or a stalemate.
-5. **Resign/Draw**: Players can use the resign or draw buttons to end the game early.
-   
+
+1. **Making a Move**: On your turn, select a piece you'd like to move. The selected piece will change color, and the available squares for movement will be marked in a different color. Click on one of the marked squares to complete your move.
+ 
+2. **Multi-Capturing**: If your piece is able to make multiple captures in one turn, the available capture moves will continue to be highlighted. Keep clicking valid moves until the sequence is complete.
+
+3. **Winning/Stalemate Alerts**: The game will automatically notify players when there is a winner or if the game ends in a stalemate.
+
+4. **Resign/Draw**: You can use the "Resign" or "Draw" buttons at any time to either concede or offer a draw to your opponent.
+ 
+5. **Restarting the Game**:  After a game ends, you can choose to start a new game by selecting the "Play Again" option.
+
 
 
 ## Screenshots
 
-Starting position of the game  
+**Starting position of the game**  
 
 
 ![readmefile1](https://github.com/ayubix/Checkers-game/assets/86429159/5afc1ede-952b-450f-9e5e-ee15f29a7fe3)
@@ -81,24 +83,24 @@ Starting position of the game
 
 
 
-When the current player click on one of his pieces , all the available squares will highligh  
+**When the current player clicks on a piece, all available squares for movement are highlighted**  
 
 ![readme2](https://github.com/ayubix/Checkers-game/assets/86429159/3dbca1ae-23f5-4153-b0e0-2114bb0303cd)
 
 
 
-Any player in his turn can offer to his opponent a draw  
+**During their turn, any player can offer a draw to their opponent, prompting a decision to accept or decline** 
 
 ![image](https://github.com/ayubix/Checkers-game/assets/86429159/887defbf-3d83-4b29-aef5-5c693ecfe477)
 
 
 
 
-King can go to any of his diagonals  
+**A king can move any number of squares along its diagonals**
 
 ![image](https://github.com/ayubix/Checkers-game/assets/86429159/cee4081b-1476-4f67-8b5b-32cefe1f451a)
 
 
-After one of the players captured all of his opponent's pieces , or player can not make any valid move in his turn  the game end  
+**The game ends when a player either captures all of their opponent's pieces, has no valid moves left, or resigns**
 
 ![image](https://github.com/ayubix/Checkers-game/assets/86429159/9a3ec4fc-964d-46f5-af51-2ade6f3f28f6)
