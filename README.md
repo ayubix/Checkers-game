@@ -49,12 +49,12 @@ To run this game locally, follow these steps:
 
    ![clone](https://github.com/user-attachments/assets/0c8cba4b-a081-4db1-a6e0-740c7d13edd2)
 
-2. ### Navigate to the project directory:
+2. ### Navigate to the project directory on your IDE(VScode preferred):
 
    ![image](https://github.com/ayubix/Checkers-game/assets/86429159/ae0ccde8-4e77-4378-9f84-ef063ca7710f)
 
 
-3. ### Open index.html in your web browser and enjoy :)
+3. ### Open index.html in your web browser or via VScode with Live server extension and enjoy :)
 
 
 ## Usage
